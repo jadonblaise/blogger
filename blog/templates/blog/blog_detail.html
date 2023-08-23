@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ blog.name }}</title>
+</head>
+<body>
+    <h1>{{ blog.name }}</h1>
+    <p>Tagline: {{ blog.tagline }}</p>
+    <h2>Entries</h2>
+    <ul>
+        {% for entry in entries %}
+            <li>{{ entry.body_text }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
