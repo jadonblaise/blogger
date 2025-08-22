@@ -21,7 +21,7 @@ The app provides:
 
 ## ⚙️ Installation & Setup
 - Clone the repository
-  - git clone
+  - git clone https://github.com/jadonblaise/blogger.git
   - cd blogger
 - Create and activate a virtual environment
   - python -m venv venv
